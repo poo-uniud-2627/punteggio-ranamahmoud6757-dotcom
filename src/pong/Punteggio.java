@@ -119,7 +119,7 @@ return null;
      */
     public List<Lato> getStoria() {
         return List.copyOf(storia);
-
+    }
 
     /**
      * Una partita nuova con la stessa regola.
