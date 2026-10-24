@@ -1,7 +1,6 @@
 // Pong — Programmazione Orientata agli Oggetti e Laboratori, Udine, a.a. 2026-27
 //v Consegna 1: il Punteggio. Scadenza: domenica 25 ottobre 2026.
 package pong;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -129,4 +128,3 @@ return null;
         storia.clear();
 
     }
-}
