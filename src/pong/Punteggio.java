@@ -48,7 +48,6 @@ this.scartoMinimo = scartoMinimo;
       if (!isFinita()) {
     storia.add(chi);
    }
-
 }
 
     /**
