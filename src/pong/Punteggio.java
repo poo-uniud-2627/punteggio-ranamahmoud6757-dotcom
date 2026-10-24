@@ -33,7 +33,6 @@ private final List<Lato> storia = new ArrayList<>();
          this.puntiPerVincere = puntiPerVincere;
 this.scartoMinimo = scartoMinimo;
 }
-    }
 
     /**
      * Il lato chi ha fatto un punto.
@@ -127,3 +126,4 @@ return null;
         storia.clear();
 
     }
+}
