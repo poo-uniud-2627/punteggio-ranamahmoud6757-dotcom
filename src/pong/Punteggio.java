@@ -18,10 +18,10 @@ import java.util.List;
  */
 public class Punteggio {
 
-    //
 private final int puntiPerVincere;
 private final int scartoMinimo;
 private final List<Lato> storia = new ArrayList<>();
+
 
 
     /**
@@ -58,11 +58,10 @@ this.scartoMinimo = scartoMinimo;
 for (Lato l : storia) {
     if (l == chi) {
         n++;
-    }
+      }
+   }
+    return n;
 }
-return n;
-
-    }
 
     /**
      * Promette: vero se la partita è finita, cioè se un lato ha vinto. Non cambia niente.
